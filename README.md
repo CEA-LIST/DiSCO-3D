@@ -7,20 +7,8 @@ DiSCO-3D is a novel method designed to solve the task of 3D Open-Vocabulary Sub-
 🎉 Accepted at ICCV 2025 — See you in Hawaii! 🎉
 ## 🔍 Overview
 
-3D semantic segmentation is crucial for high-level scene understanding in applications like robotics and autonomous systems. Traditional approaches either focus on:
+3D semantic segmentation provides high-level scene understanding for applications in robotics, autonomous systems, etc. Traditional methods adapt exclusively to either task-specific goals (open-vocabulary segmentation) or scene content (unsupervised semantic segmentation). We propose DiSCO-3D, the first method addressing the broader problem of 3D Open-Vocabulary Sub-concepts Discovery, which aims to provide a 3D semantic segmentation that adapts to both the scene and user queries. We build DiSCO-3D on Neural Fields representations, combining unsupervised segmentation with weak open-vocabulary guidance. Our evaluations demonstrate that DiSCO-3D achieves effective performance in Open-Vocabulary Sub-concepts Discovery and exhibits state-of-the-art results in the edge cases of both open-vocabulary and unsupervised segmentation.
 
-    Open-Vocabulary Segmentation (OVS): segmenting one object class per query, or
-
-    Unsupervised Semantic Segmentation (USS): clustering a scene without prior knowledge.
-
-DiSCO-3D tackles both simultaneously, enabling fine-grained sub-concept discovery from general open-vocabulary queries (e.g., furniture, seatings), without any additional supervision or model modifications.
-## 📽️ Demo Videos
-Task	Video Path
-Open-Vocabulary Sub-Concepts Discovery	img/videos/ovsd.mp4
-Architecture Overview	img/videos/global.mp4
-OVSD Baseline Comparison	img/videos/ovsd-baselines.mp4
-Open-Vocabulary Segmentation	img/videos/ovs.mp4
-Unsupervised Semantic Segmentation	img/videos/uss.mp4
 ## 🧠 Key Contributions
 
     New Task: Defines the 3D Open-Vocabulary Sub-Concepts Discovery (OV-SD) problem.
@@ -31,7 +19,7 @@ Unsupervised Semantic Segmentation	img/videos/uss.mp4
 
     Multi-query Support: Handles disjoint, overlapping, and nested queries.
 
-    Strong Performance: Achieves SoTA on OV-SD and its edge cases.
+    Strong Performance: Achieves SoTA on OV-SD and its edge cases of NeRF Open-vocabulary Segmentation and Unsupervised Semantic Segmentation.
 
 
 ## 📄 Paper & Supplementary Material
@@ -56,20 +44,6 @@ year={2024}
 }
 '''
 
-## 👥 Authors
-
-    - Doriand Petit¹²
-
-    - Steve Bourgeois¹
-
-    - Vincent Gay-Bellile¹
-
-    - Florian Chabot¹
-
-    - Loïc Barthe²
-
-¹ Université Paris-Saclay, CEA List, France
-² IRIT, Université Toulouse III, CNRS, France
 ## 🙏 Acknowledgements
 
 This work was made possible thanks to the use of the CEA List FactoryIA supercomputer, supported by the Île-de-France Regional Council.
