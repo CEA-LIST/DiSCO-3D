@@ -24,7 +24,8 @@ DiSCO-3D is a novel method designed to solve the task of 3D Open-Vocabulary Sub-
 
 ## 📄 Paper & Supplementary Material
 
-    - 📄 Paper & Supplementary Material: Coming soon
+    - 📄 Paper : https://arxiv.org/abs/2507.14596
+    - Supplementary Material: https://drive.google.com/drive/folders/1m8jpCs6KJFrBURsRAP05kpd5iLYqpyVD
 
 
 ## 🧪 Installation & Usage
@@ -35,14 +36,14 @@ DiSCO-3D is a novel method designed to solve the task of 3D Open-Vocabulary Sub-
 
 If you find this project useful, please cite:
 
-'''
-@inproceedings{petit2024ring,
-title={RING-NeRF: Rethinking Inductive Biases for Versatile and Efficient Neural Fields},
-author={Petit, Doriand and Bourgeois, Steve and Pavel, Dumitru and Gay-Bellile, Vincent and Chabot, Florian and Barthe, Loic},
-journal={European Conference on Computer Vision (ECCV)},
-year={2024}
-}
-'''
+
+    @inproceedings{petit2025disco,
+      title={DiSCO-3D: Discovering and segmenting Sub-Concepts from Open-vocabulary queries in NeRF},
+      author={Petit, Doriand and Bourgeois, Steve and Gay-Bellile, Vincent and Chabot, Florian and Barthe, Lo{\"\i}c},
+      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+      pages={20043--20052},
+      year={2025}
+    }
 
 ## 🙏 Acknowledgements
 
